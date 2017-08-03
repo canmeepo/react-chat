@@ -1,0 +1,40 @@
+{
+  "name": "react-chat",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.2",
+    "styled-components": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "eslint": "3.19.0",
+    "eslint-config-airbnb": "15.0.1",
+    "eslint-plugin-import": "2.3.0",
+    "eslint-plugin-jsx-a11y": "5.0.3",
+    "eslint-plugin-react": "7.0.1",
+    "gh-pages": "^1.0.0",
+    "html-minifier": "^3.5.2",
+    "husky": "^0.13.4",
+    "react-scripts": "1.0.7"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "airbnb",
+    "env": {
+      "browser": true
+    },
+    "rules": {
+      "react/prop-types": 0
+    }
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
